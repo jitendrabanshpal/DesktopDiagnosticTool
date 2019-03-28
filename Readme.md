@@ -21,3 +21,5 @@ Two files will remain in clinet machine's desktop like "Desktop_Diagnostic_Log_Y
 In additional if user want to remove UI version they can remove code mentioned in AU3 file.
 
 Also non GUI version is updated.
+
+For compilation and edit script user need to install AutoIt and editor which is openly available.

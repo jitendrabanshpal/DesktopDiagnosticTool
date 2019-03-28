@@ -597,7 +597,6 @@ SMARTCARD_READER_LIST()
 
 ;VM Horinzon Client details
 VM_HORIZON_CLIENT_DETAILS()
-;Broken Spring Check for HSCIC Identity Agents
 
 ;Other Information (environment Path)
 USERS_MACHINE_ENVIRONMENT_PATH_DETAILS()
