@@ -100,6 +100,7 @@ Func OPERATING_SYSTEM_WITH_ARCH()
 	FileWrite($FileHandler, "OS Type is: "& @OSType & @CRLF)
 	FileWrite($FileHandler, "Computer User Name is: "& @UserName & @CRLF)
 	FileWrite($FileHandler, "Computer Name is: "& @ComputerName & @CRLF)
+	FileWrite($FileHandler, "Logon Domain Details: "& @LogonDomain & @CRLF)
 	If @OSLang == '0809' Then
 		FileWrite($FileHandler, "OS Language is: " & "English - United Kingdom" & @CRLF)
 	ElseIf @OSLang == '0409' Then
