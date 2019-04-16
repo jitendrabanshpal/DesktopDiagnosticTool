@@ -5,7 +5,7 @@
 #AutoIt3Wrapper_UseX64=y
 #AutoIt3Wrapper_Res_Comment=Desktop Diagnostic Tool
 #AutoIt3Wrapper_Res_Description=Desktop Diagnostic Tool
-#AutoIt3Wrapper_Res_Fileversion=1.0.0.2
+#AutoIt3Wrapper_Res_Fileversion=1.0.0.3
 #AutoIt3Wrapper_Res_Fileversion_AutoIncrement=y
 #AutoIt3Wrapper_Run_Tidy=y
 #EndRegion ;**** Directives created by AutoIt3Wrapper_GUI ****
@@ -98,9 +98,10 @@ Func OPERATING_SYSTEM_WITH_ARCH()
 	FileWrite($FileHandler, "OS Version is: " & @OSVersion & @CRLF)
 	FileWrite($FileHandler, "OS Architect is: " & @OSArch & @CRLF)
 	FileWrite($FileHandler, "OS Build is: " & @OSBuild & @CRLF)
-    FileWrite($FileHandler, "OS Type is: "& @OSType & @CRLF)
-	FileWrite($FileHandler, "Computer User Name is: "& @UserName & @CRLF)
-	FileWrite($FileHandler, "Computer Name is: "& @ComputerName & @CRLF)
+	FileWrite($FileHandler, "OS Type is: " & @OSType & @CRLF)
+	FileWrite($FileHandler, "Computer User Name is: " & @UserName & @CRLF)
+	FileWrite($FileHandler, "Computer Name is: " & @ComputerName & @CRLF)
+	FileWrite($FileHandler, "Logon Domain Name: " & @LogonDomain & @CRLF)
 	If @OSLang == '0809' Then
 		FileWrite($FileHandler, "OS Language is: " & "English - United Kingdom" & @CRLF)
 	ElseIf @OSLang == '0409' Then
